@@ -1,4 +1,4 @@
-// ----------------------------------------------- Bubble Sort | Time - O(N)
+// ----------------------------------------------- Bubble Sort | Time - O(N^2)
 #include<iostream>
 using namespace std;
 
