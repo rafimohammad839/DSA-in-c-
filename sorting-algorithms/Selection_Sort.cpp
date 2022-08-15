@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+// ----------------------------------------------- Selection Sort | Time - O(N^2)
 void selectionSort(int arr[]) {
   for (int i = 0; i < 4; i++) {
     int select = i;
