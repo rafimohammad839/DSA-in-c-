@@ -9,7 +9,7 @@ void countingSort(int arr[], int n) {
     k = max(k, arr[i]);
   }
 
-  int count[k] = {0};
+  int count[k+1] = {0};
   for (int i = 0; i < n; i++) {
     count[arr[i]]++;
   }
