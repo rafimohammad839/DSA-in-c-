@@ -18,7 +18,7 @@ using namespace std;
 //   return j;
 // }
 
-// ----------------------------------------------------------- Solution 1 | Time - O(N) | Auxiliary Space - O(1)
+// ----------------------------------------------------------- Solution 2 | Time - O(N) | Auxiliary Space - O(1)
 int removeDuplicates(int arr[], int n) {
   int j = 0, i;
   for (i = 0; i < n - 1; i++) {
