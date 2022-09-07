@@ -1,5 +1,5 @@
 // Leetcode 1: Two Sum
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 class Solution {
@@ -19,3 +19,16 @@ public:
       return ans;
     }
 };
+
+int main()
+{
+  Solution sol;
+  vector<int> arr = {2, 7, 11, 15};
+  int target = 9;
+  vector<int> res;
+  res = sol.twoSum(arr, target);
+  for (auto it : res) {
+    cout << it << " ";
+  }
+  return 0;
+}
